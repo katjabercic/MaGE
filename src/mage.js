@@ -26,7 +26,7 @@ export async function getItemInfo(itemId) {
     const description = entity.descriptions.en; // Replace 'en' with the desired language code
 
     return {
-      title: title,
+      title: title.charAt(0).toUpperCase() + title.slice(1),
       description: description.charAt(0).toUpperCase() + description.slice(1) + '.'
     }
   } catch (error) {

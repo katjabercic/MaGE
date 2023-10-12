@@ -20,7 +20,7 @@ module.exports = {
     //Plugins to help and include additionals functionalities to webpack
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Minimal Vue Webpack',
+            title: 'MathRelay',
             template: path.resolve(__src, 'templates', 'index.html'),
         }),
         new VueLoaderPlugin()

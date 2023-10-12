@@ -1,5 +1,5 @@
 <template>
-    <h1>{{ wdItem.title }}</h1>
+    <p><b>{{ wdItem.title }}</b></p>
     <p>{{ wdItem.description }}</p>
   </template>
 
